@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définition de l'encodage des caractères et de la mise en page responsive -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[THE DEADBOLTS]</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+
+    <!-- Style interne pour la mise en page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #ffffff; 
+            margin: 0; 
+            padding: 0;
+        }
+        h1 {
+            color: #333; 
+            padding: 20px;
+        }
+        .container {
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+            padding: 20px;
+        }
+        .card {
+            background: white; 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 200px; 
+            cursor: pointer; 
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05); /* Effet d'agrandissement au survol */
+        }
+        .card img {
+            width: 100%; 
+            border-radius: 0px;
+        }
+        .card h2 {
+            font-size: 18px; 
+            color: #444;
+        }
+        .modal {
+            display: none; /* Modal caché par défaut */
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0,0,0,0.5); /* Ombre d'arrière-plan du modal */
+            justify-content: center; 
+            align-items: center;
+        }
+        .modal-content {
+            background: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            width: 80%; 
+            max-width: 600px; 
+            text-align: left;
+        }
+        .modal img {
+            width: 100%; 
+            border-radius: 10px;
+        }
+        .close {
+            float: right; 
+            font-size: 20px; 
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>[THE DEADBOLTS]</h1> <!-- Titre principal -->
+
+    <!-- Première ligne de cartes pour les textes -->
+    <div class="container">
+        <div class="card" onclick="openModal('texte1')">
+            <img src="clef1.svg" alt="Clé 1">
+            <h2>Percez en 15 secondes</h2>
+        </div>
+        <div class="card" onclick="openModal('texte2')">
+            <img src="clef2.svg" alt="Clé 2">
+            <h2>Fracturez 30 secondes</h2>
+        </div>
+        <div class="card" onclick="openModal('texte3')">
+            <img src="clef3.svg" alt="Clé 3">
+            <h2>Crochetez en une minute</h2>
+        </div>
+        <div class="card" onclick="openModal('texte4')">
+            <img src="clef4.svg" alt="Clé 4">
+            <h2>Entrouvrez en moins de 10 min</h2>
+        </div>
+    </div>
+
+    <p></p>
+
+    <!-- Deuxième ligne de cartes pour les images -->
+    <div class="container">
+        <div class="card" onclick="openModal('image1')">
+            <img src="serrure1.svg" alt="Serrure 1">
+            <h2>Serrure 1</h2>
+        </div>
+        <div class="card" onclick="openModal('image2')">
+            <img src="serrure2.svg" alt="Serrure 2">
+            <h2>Serrure 2</h2>
+        </div>
+        <div class="card" onclick="openModal('image3')">
+            <img src="serrure3.svg" alt="Serrure 3">
+            <h2>Serrure 3</h2>
+        </div>
+    </div>
+
+    <!-- Modal pour afficher le contenu dynamique -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span> <!-- Bouton de fermeture -->
+            <div id="modal-body"></div> <!-- Zone où le contenu dynamique sera affiché -->
+        </div>
+    </div>
+
+    <!-- Footer avec les informations de contact -->
+    <footer>
+        <p>Adresse  : 123 Rue du test, Ville, Pays</p>
+        <p>Email    : <a href="mailto:contact@example.com">contact@example.com</a></p>
+        <p>Téléphone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+    </footer>
+
+    <!-- Script pour gérer les interactions et afficher le contenu dans le modal -->
+    <script>
+        // Fonction qui ouvre le modal et charge le contenu
+        function openModal(content) {
+            var modal = document.getElementById('modal');
+            var modalBody = document.getElementById('modal-body');
+            modal.style.display = 'flex'; // Afficher le modal
+
+            // Si le contenu est du texte, on récupère le texte du fichier
+            if(content.startsWith('texte')) {
+                const texts = {
+                        texte1:  
+                        `<h2>Percez en 15 secondes</h2>
+                        <p>Ex-taularde au passé familiale traumatique, Dolores (21) est enfermée dans une amnésie protectrice. Sa soif de vengeance et sa rencontre avec un serrurier (60), usé par les remords, l’aident à déverrouiller son passé. Mais certaines portes, de la mémoire comme dans la vie, ne s’ouvrent qu’au prix du pire.</p>`,
+                       
+                        texte2: `<h2>Fracturez 30 secondes</h2>
+                        <p>Trahie par son frère, Dolores (21) est jetée en prison... (texte complet)</p>`,
+
+                        texte3: `<h2>Crochetez en une minute</h2>
+                        <p>Enfermée dans une amnésie protectrice, Dolores (21) a grandi heureuse... (texte complet)</p>`,                    
+                       
+                        texte4: `<h2>Entrouvrez en moins de 10 min</h2>
+                        
+                        <p>Sur les routes d’Europe, de ville en ville... (texte complet)</p>`
+                    };
+                    modalBody.innerHTML = texts[content];
+            } else {
+                modalBody.innerHTML = '<img src=clef1.svg alt="'+ content +'">';
+            }
+        }
+
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
