@@ -11,7 +11,7 @@ body {
     background-image: url('Deadbolts_back.png'); /* Image de fond dans le dossier racine */
     background-color: #000000 ;
     background-size: 100%; /* Couvre toute la page */
-    background-position: top; /* Centre l'image */
+    background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Pas de répétition */
     color: #fff; /* Texte blanc pour contraste avec fond sombre */
     min-height: 100%; /* Assure que le body couvre toute la hauteur */
