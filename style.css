@@ -11,8 +11,8 @@
     font-weight: 200;
     position: relative; /* Positionnement relatif pour les enfants */
     top: 5%; /* Position relative en pourcentage */
-    right:0%;
-    width: 52vw; /* Largeur proportionnelle à la page (40% de la largeur de la fenêtre) */
+    left: 20%; /* Décalage à gauche */
+    width: 60vw; /* Largeur proportionnelle à la page (50% de la largeur de la fenêtre) */
     margin: 0 auto; /* Centrage horizontal */
     text-align: center; /* Justification du texte */
     letter-spacing: 1.8vw; /* Espacement entre les caractères proportionnel */
