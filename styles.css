@@ -74,7 +74,9 @@ body {
     transition: color 0.3s ease;
     text-align: justify; /* Justification du texte */
     width: 20vw; /* Largeur proportionnelle pour chaque lien */
-    letter-spacing: 0.15vw; /* Espacement entre les caractères proportionnel */
+    letter-spacing: 0.15vw; /* Espacement entre les caractères 
+    text-shadow: 0px 0px 16px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
+    
 }
 
 /* Effet au survol des liens */
