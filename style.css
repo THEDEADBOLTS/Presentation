@@ -21,7 +21,7 @@
 
 /* Style du sous-titre */
 .subtitle {
-    font-size: 2.5vw; /* Taille proportionnelle */
+    font-size: 2.2vw; /* Taille proportionnelle */
     position: relative; /* Positionnement relatif pour les enfants */
     top: 5%; /* Position relative en pourcentage */
     left: 20%; /* Décalage à gauche */
