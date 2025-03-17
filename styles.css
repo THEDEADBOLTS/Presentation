@@ -67,7 +67,7 @@ body {
 
 /* Style des liens */
 .link {
-    font-size: 3vw; /* Taille proportionnelle */
+    font-size: 10vw; /* Taille proportionnelle */
     text-decoration: none;
     color: #fff; /* Texte blanc */
     position: absolute; /* Positionnement absolu pour un contrôle précis */
