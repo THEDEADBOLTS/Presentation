@@ -16,7 +16,7 @@
     margin: 0 auto; /* Centrage horizontal */
     text-align: center; /* Justification du texte */
     letter-spacing: 1.8vw; /* Espacement entre les caractères proportionnel */
-    text-shadow: 0px 0px 16px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
+    text-shadow: 0px 0px 45px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
 }
 
 /* Style du sous-titre */
@@ -150,7 +150,7 @@ body {
 
 .link {
     position: absolute; /* Position absolue pour version verticale */
-    font-size: 4vw; /* Taille augmentée pour lisibilité sur mobile */
+    font-size: 6vw; /* Taille augmentée pour lisibilité sur mobile */
     width: 40vw; /* Largeur ajustée pour version verticale */
     letter-spacing: 0.3vw; /* Espacement ajusté pour mobile */
 }
