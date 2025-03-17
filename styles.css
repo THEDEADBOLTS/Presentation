@@ -16,7 +16,7 @@
     margin: 0 auto; /* Centrage horizontal */
     text-align: center; /* Justification du texte */
     letter-spacing: 1.8vw; /* Espacement entre les caractères proportionnel */
-    text-shadow: 0px 0px 45px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
+    text-shadow: 40px 40px 45px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
 }
 
 /* Style du sous-titre */
