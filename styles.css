@@ -12,11 +12,11 @@
     position: relative; /* Positionnement relatif pour les enfants */
     top: 5%; /* Position relative en pourcentage */
     right:0%;
-    width: 60vw; /* Largeur proportionnelle à la page (40% de la largeur de la fenêtre) */
+    width: 52vw; /* Largeur proportionnelle à la page (40% de la largeur de la fenêtre) */
     margin: 0 auto; /* Centrage horizontal */
     text-align: center; /* Justification du texte */
     letter-spacing: 1.8vw; /* Espacement entre les caractères proportionnel */
-    text-shadow: 40px 40px 45px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
+    text-shadow: 0px 0px 16px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
 }
 
 /* Style du sous-titre */
@@ -67,16 +67,14 @@ body {
 
 /* Style des liens */
 .link {
-    font-size: 2.5vw; /* Taille proportionnelle */
+    font-size: 1.8vw; /* Taille proportionnelle */
     text-decoration: none;
     color: #fff; /* Texte blanc */
     position: absolute; /* Positionnement absolu pour un contrôle précis */
     transition: color 0.3s ease;
     text-align: justify; /* Justification du texte */
     width: 20vw; /* Largeur proportionnelle pour chaque lien */
-    letter-spacing: 0.15vw; /* Espacement entre les caractères 
-    text-shadow: 0px 0px 16px rgb(0, 0, 0); /* Ombre avec flou gaussien léger */
-    
+    letter-spacing: 0.15vw; /* Espacement entre les caractères proportionnel */
 }
 
 /* Effet au survol des liens */
@@ -102,8 +100,8 @@ body {
 }
 
 .link[data-lang="italian"] {
-    top: 22%; /* À 32% de la hauteur */
-    right: 15%; /* À droite */
+    top: 19%; /* À 32% de la hauteur */
+    right: 7%; /* À droite */
 }
 
 .link[data-lang="portuguese"] {
@@ -150,7 +148,7 @@ body {
 
 .link {
     position: absolute; /* Position absolue pour version verticale */
-    font-size: 5vw; /* Taille augmentée pour lisibilité sur mobile */
+    font-size: 4vw; /* Taille augmentée pour lisibilité sur mobile */
     width: 40vw; /* Largeur ajustée pour version verticale */
     letter-spacing: 0.3vw; /* Espacement ajusté pour mobile */
 }
