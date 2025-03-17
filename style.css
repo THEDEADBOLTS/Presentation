@@ -23,7 +23,7 @@
 .subtitle {
     font-size: 2vw; /* Taille proportionnelle */
     position: relative; /* Positionnement relatif pour les enfants */
-    top: 7%; /* Position relative en pourcentage */
+    top: 5%; /* Position relative en pourcentage */
     left: 20%; /* Décalage à gauche */
     width: 60vw; /* Largeur proportionnelle (50% de la largeur de la fenêtre) */
     text-align: center; /* Justification du texte */
