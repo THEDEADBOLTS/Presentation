@@ -24,7 +24,7 @@
     font-size: 2vw; /* Taille proportionnelle */
     position: relative; /* Positionnement relatif pour les enfants */
     top: 8%; /* Position relative en pourcentage */
-    left: 20%; /* Décalage à gauche */
+    left: -20%; /* Décalage à gauche */
     width: 60vw; /* Largeur proportionnelle (50% de la largeur de la fenêtre) */
     text-align: center; /* Justification du texte */
     letter-spacing: 0.225vw; /* Espacement entre les caractères proportionnel */
