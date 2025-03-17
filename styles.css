@@ -148,7 +148,7 @@ body {
 
 .link {
     position: absolute; /* Position absolue pour version verticale */
-    font-size: 4vw; /* Taille augmentée pour lisibilité sur mobile */
+    font-size: 6vw; /* Taille augmentée pour lisibilité sur mobile */
     width: 40vw; /* Largeur ajustée pour version verticale */
     letter-spacing: 0.3vw; /* Espacement ajusté pour mobile */
 }
