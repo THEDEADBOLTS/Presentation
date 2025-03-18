@@ -173,7 +173,7 @@ body {
 
 .link[data-lang="italian"] {
     top: 28%; /* Position spécifique */
-    right: -2%; /* À droite */
+    right: 0%; /* À droite */
     transform: none; /* Pas de transformation */
 }
 
