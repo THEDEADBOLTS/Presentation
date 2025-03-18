@@ -161,25 +161,25 @@ body {
 
 .link[data-lang="spanish"] {
     top: 76%; /* Position spécifique */
-    right: -10%; /* À gauche */
+    right: 10%; /* À gauche */
     transform: none; /* Pas de transformation */
 }
 
 .link[data-lang="french"] {
     top: 48%; /* Position spécifique */
-    left: 45%; /* Centré */
+    left: 44%; /* Centré */
     transform: translateX(-50%); /* Centrage précis */
 }
 
 .link[data-lang="italian"] {
     top: 28%; /* Position spécifique */
-    right: 0%; /* À droite */
+    right: 5%; /* À droite */
     transform: none; /* Pas de transformation */
 }
 
 .link[data-lang="portuguese"] {
     top: 72%; /* Position spécifique */
-    left: 10%; /* À droite */
+    left: 0%; /* À droite */
     transform: none; /* Pas de transformation */
 }
 }
