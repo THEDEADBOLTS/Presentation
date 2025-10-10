@@ -137,7 +137,7 @@ body {
 }
 
 .subtitle {
-    font-size: 4vw; /* Taille proportionnelle augmentée pour mobile */
+    font-size: 5vw; /* Taille proportionnelle augmentée pour mobile */
     position: absolute; /* Position absolue pour version verticale */
     top: 9%; /* Position spécifique pour version verticale */
     left: 50%; /* Centrage horizontal */
@@ -168,7 +168,7 @@ body {
 
 .link[data-lang="french"] {
     top: 48%; /* Position spécifique */
-    left: 50%; /* Centré */
+    left: 45%; /* Centré */
     transform: translateX(-50%); /* Centrage précis */
 }
 
