@@ -125,7 +125,7 @@ body {
 }
 
 .title {
-    font-size: 8vw; /* Taille proportionnelle augmentée pour mobile */
+    font-size: 4vw; /* Taille proportionnelle augmentée pour mobile */
     position: absolute; /* Position absolue pour version verticale */
     top: 3%; /* Position spécifique pour version verticale */
     width: 80vw; /* Largeur plus grande sur mobile */
