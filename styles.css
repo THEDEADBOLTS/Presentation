@@ -95,7 +95,7 @@ body {
 
 .link[data-lang="french"] {
     top: 40%; /* À 53% de la hauteur */
-    left: 50%; /* Centré horizontalement */
+    left: 48%; /* Centré horizontalement */
     transform: translateX(-50%);
 }
 
