@@ -90,12 +90,12 @@ body {
 
 .link[data-lang="spanish"] {
     top: 60%; /* À 84% de la hauteur */
-    right: 40%; /* À droite */
+    right: 50%; /* À droite */
 }
 
 .link[data-lang="french"] {
     top: 40%; /* À 53% de la hauteur */
-    left: 52%; /* Centré horizontalement */
+    left: 51%; /* Centré horizontalement */
     transform: translateX(-50%);
 }
 
