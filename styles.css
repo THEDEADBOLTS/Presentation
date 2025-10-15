@@ -167,8 +167,8 @@ body {
 }
 
 .link[data-lang="french"] {
-    top: 45%; /* Position spécifique */
-    left: 40%; /* Centré */
+    top: 50%; /* Position spécifique */
+    left: 50%; /* Centré */
     transform: translateX(-50%); /* Centrage précis */
 }
 
