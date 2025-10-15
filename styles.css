@@ -89,8 +89,8 @@ body {
 }
 
 .link[data-lang="spanish"] {
-    top: 72%; /* À 84% de la hauteur */
-    right: 10%; /* À droite */
+    top: 50%; /* À 84% de la hauteur */
+    right: 50%; /* À droite */
 }
 
 .link[data-lang="french"] {
