@@ -94,8 +94,8 @@ body {
 }
 
 .link[data-lang="french"] {
-    top: 38%; /* À 53% de la hauteur */
-    left: 53%; /* Centré horizontalement */
+    top: 42%; /* À 53% de la hauteur */
+    left: 48%; /* Centré horizontalement */
     transform: translateX(-50%);
 }
 
