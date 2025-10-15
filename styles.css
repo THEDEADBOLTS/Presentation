@@ -162,7 +162,7 @@ body {
 
 .link[data-lang="spanish"] {
     top: 75%; /* Position spécifique */
-    right: 75%; /* À gauche */
+    right: 50%; /* À gauche */
     transform: none; /* Pas de transformation */
 }
 
